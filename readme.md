@@ -4,10 +4,10 @@ conda env create -f environment.yaml
 ## 2. 資料集處理 (處理相關步驟及安裝套件參考 StyleGAN-Human[GitHub])
 cd process_data
 
-### 2.1 Aligned raw images (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main#aligned-raw-images)
+#### 2.1 Aligned raw images (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main#aligned-raw-images)
 python alignment.py --image-folder img/test/ --output-folder aligned_image/
 
-### 2.2 Invert real image with PTI (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main?tab=readme-ov-file#invert-real-image-with-pti)
+#### 2.2 Invert real image with PTI (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main?tab=readme-ov-file#invert-real-image-with-pti)
 python run_pti.py
 cd..
 """
@@ -37,11 +37,11 @@ you can find them in mapper/options/train_options.py.
 
 ## 4. Testing
 
-### 4.1 Step 1
+#### 4.1 Step 1
 First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_texture_dir' in mapper/options/train_options.py.
 bash test.sh
 
-# 4.2 Step  2 (ID Recovery Module)
+#### 4.2 Step  2 (ID Recovery Module)
 Set the data path in 'recovery_module/pti/pti_configs/paths_config.py'.
 cd recovery_module
 python run_pti.py
