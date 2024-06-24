@@ -31,7 +31,7 @@ Since we only need the output of e4e, you can comment out the finetuning code to
 """  
 
 ## 3. Training
-bash run.sh  
+```bash run.sh```  
 """  
 You can set the GPU number in run.sh  
 If you would like to change the data, weights, output path or other settings,   
@@ -42,9 +42,9 @@ you can find them in mapper/options/train_options.py.
 
 #### 4.1 Step 1  
 First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_texture_dir' in mapper/options/train_options.py.  
-bash test.sh  
+```bash test.sh```  
 
 #### 4.2 Step  2 (ID Recovery Module)  
 Set the data path in 'recovery_module/pti/pti_configs/paths_config.py'.  
-cd recovery_module  
-python run_pti.py  
+```cd recovery_module```  
+```python run_pti.py```  
