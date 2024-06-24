@@ -1,7 +1,7 @@
 ## 1. Environment
 conda env create -f environment.yaml  
 
-## 2. Data Preprocessing (Steps for handling and installation of relevant packages : StyleGAN-Human[[Github]](https://github.com/stylegan-human/StyleGAN-Human) )  
+## 2. Data Preprocessing (Steps for handling and installation of relevant packages : StyleGAN-Human [[Github]](https://github.com/stylegan-human/StyleGAN-Human) )  
 cd process_data  
 
 #### 2.1 Aligned raw images (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main#aligned-raw-images)  
