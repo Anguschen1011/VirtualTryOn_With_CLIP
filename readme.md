@@ -10,7 +10,7 @@
 ```python alignment.py --image-folder img/test/ --output-folder aligned_image/  ```
 
 #### 2.2 Invert real image with PTI [[Github]](https://github.com/stylegan-human/StyleGAN-Human/tree/main?tab=readme-ov-file#invert-real-image-with-pti)  
-```python run_pti.py```
+```python run_pti.py  ```
 ```cd..```
 
 """
