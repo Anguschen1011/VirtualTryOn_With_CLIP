@@ -1,0 +1,62 @@
+[
+    {
+        "img": "WOMEN-Blouses_Shirts-id_00003372-03_4_full",
+        "text": [
+            [
+                "tank dress",
+                "long dress"
+            ],
+            [
+                "tank long dress"
+            ]
+        ],
+        "texture": [
+            "B.jpg",
+            "C.jpg"
+        ]
+    },
+    {
+        "img": "WOMEN-Blouses_Shirts-id_00003378-01_4_full",
+        "text": [
+            [
+                "tank dress",
+                "short dress"
+            ],
+            [
+                "tank short dress"
+            ]
+        ],
+        "texture": [
+            "C.jpg",
+            "A.jpg"
+        ]
+    },
+    {
+        "img": "MEN-Denim-id_00000089-05_7_additional",
+        "text": [
+            "",
+            [
+                "short shirt",
+                "shorts"
+            ]
+        ],
+        "texture": [
+            "C.jpg",
+            "A.jpg"
+        ]
+    },
+    {
+        "img": "MEN-Denim-id_00000089-44_7_additional",
+        "text": [
+            "",
+            [
+                "short shirt",
+                "shorts"
+            ]
+        ],
+        "texture": [
+            "B.jpg",
+            "C.jpg"
+        ]
+    }
+]
