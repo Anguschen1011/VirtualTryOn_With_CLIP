@@ -1,0 +1,48 @@
+在 fashiontex 環境中可執行，根據原本 FashionTex[GitHub] 程式庫進行修改。
+
+1. 使用原本 FashionTex[GitHub] 程式中所使用的 CLIP Vit-B/32 。
+
+2. 將讀取模型從各個loss中集合到 'mapper\training\coach.py' 中，並且將程式碼也整合到 'coach.py’ 。
+
+GPU : RTX 3060 VRAM : 8.0/12.0 GB
+
+Training History:
+(fashiontex) C:\Users\msp\Desktop\FashionTex_Changed>bash run.sh
+Loading CLIP Loss
+CLIP Model in Coach.py :  2033512655216
+Loading SegLoss from DenseCLIP
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: C:\Users\msp\anaconda3\envs\fashiontex\lib\site-packages\lpips\weights\v0.1\vgg.pth
+Loading ResNet ArcFace for ID Loss
+CLIP Model in clip_mapper.py :  2033512655216
+CLIP Model in lantent_mappers.py :  2033512655216
+Loading decoder weights from pretrained!
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores 
+IPU available: False, using: 0 IPUs      
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+   | Name            | Type                | Params      
+---------------------------------------------------------
+0  | clip_model      | CLIP                | 151 M       
+1  | upsample        | Upsample            | 0
+2  | avg_pool        | AvgPool2d           | 0
+3  | cos_loss2       | CosineEmbeddingLoss | 0
+4  | style_loss      | StyleLoss           | 20.0 M      
+5  | seg_model       | DenseCLIP           | 168 M       
+6  | bg_mask_l2_loss | MSELoss             | 0
+7  | color_l1_loss   | L1Loss              | 0
+8  | percept         | LPIPS               | 14.7 M      
+9  | facenet         | Backbone            | 43.8 M      
+10 | pool            | AdaptiveAvgPool2d   | 0
+11 | face_pool       | AdaptiveAvgPool2d   | 0
+12 | net             | CLIPMapper          | 207 M       
+13 | latent_l2_loss  | MSELoss             | 0
+---------------------------------------------------------
+420 M     Trainable params
+34.7 M    Non-trainable params
+455 M     Total params
+1,820.369 Total estimated model params size (MB)
+
+Epoch 120: 100%|█| 3100/3100 [1:38:25<00:00,  1.90s/it, v_num=0, train_loss_id_step=0.0649, train_loss_l2_latent_step=0.0194, train_loss_bg_step=4.330, train_loss_skin_step=0.760, train_loss_image_color_step=6.950, train_loss_perceptual_step=11.30, train_loss_Epoch 120, global step 340735: test_loss reached 61.55129 (best 61.55129)
+, saving model to "outputs\released_version\version_0\checkpoints\epoch=120-step=340735.ckpt" as top 1]
