@@ -1,4 +1,4 @@
-# Reproducing and fine-tuning FashionTex [FashionTex](https://github.com/picksh/FashionTex)
+# Reproducing and fine-tuning version of FashionTex [Github](https://github.com/picksh/FashionTex)
 
 ## 1. Environment
 conda env create -f environment.yaml  
