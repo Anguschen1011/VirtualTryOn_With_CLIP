@@ -1,7 +1,7 @@
 ## 1. 建立實作環境
 conda env create -f environment.yaml  
 
-## 2. 資料集處理 (處理相關步驟及安裝套件參考 StyleGAN-Human[GitHub])  
+## 2. 資料集處理 (處理相關步驟及安裝套件參考 StyleGAN-Human[GitHub](https://github.com/stylegan-human/StyleGAN-Human) )  
 cd process_data  
 
 #### 2.1 Aligned raw images (GitHub:https://github.com/stylegan-human/StyleGAN-Human/tree/main#aligned-raw-images)  
