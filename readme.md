@@ -1,17 +1,18 @@
 # Reproducing and fine-tuning version of FashionTex [[Github]](https://github.com/picksh/FashionTex)
 
 ## 1. Environment
-conda env create -f environment.yaml  
+```conda env create -f environment.yaml  ```
 
 ## 2. Data Preprocessing (Steps for handling and installation of relevant packages : StyleGAN-Human [[Github]](https://github.com/stylegan-human/StyleGAN-Human) )  
-cd process_data  
+```cd process_data  ```
 
 #### 2.1 Aligned raw images [[Github]](https://github.com/stylegan-human/StyleGAN-Human/tree/main#aligned-raw-images)  
-python alignment.py --image-folder img/test/ --output-folder aligned_image/  
+```python alignment.py --image-folder img/test/ --output-folder aligned_image/  ```
 
 #### 2.2 Invert real image with PTI [[Github]](https://github.com/stylegan-human/StyleGAN-Human/tree/main?tab=readme-ov-file#invert-real-image-with-pti)  
-python run_pti.py  
-cd..  
+```python run_pti.py```
+```cd..```
+
 """
 Before inversion, please download our PTI weights: e4e_w+.pt into /pti/.  
 
