@@ -41,10 +41,17 @@ you can find them in mapper/options/train_options.py.
 ## 4. Testing  
 
 #### 4.1 Step 1  
-First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_texture_dir' in mapper/options/train_options.py.  
+First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_texture_dir' in mapper/options/train_options.py. 
 ```bash test.sh```  
 
 #### 4.2 Step  2 (ID Recovery Module)  
 Set the data path in 'recovery_module/pti/pti_configs/paths_config.py'.  
 ```cd recovery_module```  
-```python run_pti.py```  
+```python run_pti.py``` 
+
+### References： 
+> * FashionTex: Controllable Virtual Try-on with Text and Texture  
+>[[FashionTex]](https://github.com/picksh/FashionTex)  
+> * StyleGAN-Human: A Data-Centric Odyssey of Human Generation  
+>[[StyleGAN-Human]](https://github.com/stylegan-human/StyleGAN-Human)
+
