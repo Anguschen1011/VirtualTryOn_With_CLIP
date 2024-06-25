@@ -1,4 +1,4 @@
-# Reproducing and fine-tuning version of FashionTex [[Github]](https://github.com/picksh/FashionTex)
+# Reproducing and fine-tuning version of FashionTex
 
 ## 1. Environment
 ```conda env create -f environment.yaml  ```
@@ -49,7 +49,7 @@ Set the data path in 'recovery_module/pti/pti_configs/paths_config.py'.
 ```cd recovery_module```  
 ```python run_pti.py``` 
 
-### References： 
+## References： 
 > * FashionTex: Controllable Virtual Try-on with Text and Texture  
 >[[FashionTex]](https://github.com/picksh/FashionTex)  
 > * StyleGAN-Human: A Data-Centric Odyssey of Human Generation  
