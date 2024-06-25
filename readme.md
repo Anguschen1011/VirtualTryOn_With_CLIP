@@ -47,7 +47,7 @@ Set the data path in ```'recovery_module/pti/pti_configs/paths_config.py'```.
 ```python run_pti.py``` 
 
 ## 5. Hardware
-The model architectures proposed in this study are implemented using the PyTorchDL framework, and training is conducted on hardware featuring an Intel® Core™ i7-12700 CPU and Nvidia RTX 3060 graphics processing unit (GPU).
+The model architectures proposed in this study are implemented using the PyTorchDL framework, and training is conducted on hardware featuring an ```Intel® Core™ i7-12700``` CPU and ```Nvidia RTX 3060``` graphics processing unit (GPU).
 
 # References： 
 > * FashionTex: Controllable Virtual Try-on with Text and Texture  
