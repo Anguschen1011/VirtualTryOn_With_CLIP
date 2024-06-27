@@ -10,8 +10,10 @@
 ```python alignment.py --image-folder img/test/ --output-folder aligned_image/  ```
 
 #### 2.2 Invert real image with PTI [[Github]](https://github.com/stylegan-human/StyleGAN-Human/tree/main?tab=readme-ov-file#invert-real-image-with-pti)  
-```python run_pti.py```  
-```cd..```
+```
+python run_pti.py
+cd..
+```
 
 Before inversion, please download our PTI weights: e4e_w+.pt into ```/pti/.```  
 
@@ -43,8 +45,10 @@ First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_textu
 
 #### 4.2 Step  2 (ID Recovery Module)  
 Set the data path in ```'recovery_module/pti/pti_configs/paths_config.py'```.  
-```cd recovery_module```  
-```python run_pti.py``` 
+```
+cd recovery_module  
+python run_pti.py
+``` 
 
 ![result_example](results/Img_1.png)
 <p align="center"><i>Figure 1: Result Image.</i></p>
