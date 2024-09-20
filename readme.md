@@ -41,7 +41,8 @@ you can find them in ```mapper/options/train_options.py```.
 
 #### 4.1 Step 1  
 First set the 'checkpoint_path','test_data_list', 'test_img_dir' and 'test_texture_dir' in ```mapper/options/train_options.py```. 
-```bash test.sh```  
+```bash test.sh``` 
+Can Download Our Weight from : [[LINK]](https://mega.nz/file/eYE2UbbQ#Oti_jfYjcF_WqmcLxrcAEjMmAoM_ZquhRZWEmQmfoeU)
 
 #### 4.2 Step  2 (ID Recovery Module)  
 Set the data path in ```'recovery_module/pti/pti_configs/paths_config.py'```.  
