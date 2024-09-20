@@ -1,4 +1,4 @@
-# Reproducing and fine-tuning version of FashionTex
+# A Reproducing and fine-tuning version of FashionTex
 
 ## 1. Environment
 ```conda env create -f environment.yaml  ```
