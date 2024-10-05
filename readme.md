@@ -54,7 +54,7 @@ python run_pti.py
 ![result_example](results/Img_1.png)
 <p align="center"><i>Figure 1: Result Image.</i></p>  
 
-![result_example](results/poster.png)
+![result_example](results/report.png)
 <p align="center"><i></i></p>
 
 ## 5. Hardware
