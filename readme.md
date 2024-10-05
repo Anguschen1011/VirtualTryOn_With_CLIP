@@ -53,6 +53,8 @@ python run_pti.py
 
 ![result_example](results/Img_1.png)
 <p align="center"><i>Figure 1: Result Image.</i></p>
+![result_example](results/poster.png)
+<p align="center"><i></i></p>
 
 ## 5. Hardware
 The model architectures proposed in this study are implemented using the PyTorchDL framework, and training is conducted on hardware featuring an ```Intel® Core™ i7-12700``` CPU and ```Nvidia RTX 3060``` graphics processing unit (GPU).
